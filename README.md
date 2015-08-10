@@ -4,7 +4,7 @@ Este plugin adiciona o botão "Marcar como Spam" ao roundcube, ao clicar no bot�
 > ATENÇÃO: Este plugin está em fase beta e confita com o plugin original markasjunk,  até o momento os dois plugins não podem ser utilizados simultaneamente.
 
 # Instruções de instalação
-  - Copie a pasta 'plugins/markasjunk' para a pasta da sua instalação do Roundcube.
+  - Copie a pasta 'plugins/markasjunk' para a pasta plugins de sua instalação do Roundcube.
   - Abra o arquivo *config/config.inc.php*, localize a variável *$config['plugins']* a acrescente o valor *markasjunk* a variável. *(Ex: $config['plugins'] = array( "vcard_attachments", "markasjunk");*
   - Abra o arquivo *plugins/markasjunk/markasjunk.php*  e ajuste os parametros referentes ao servidor SPFBL  ($spfbl_server, $spfbl_port, $spfbl_timeout) conforme necessário.
 
